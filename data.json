@@ -1,0 +1,20 @@
+{
+    "Cataract": {
+        "Predictions": "Cataract: A clouding of the Lens",
+        "Descriptions": "Cataract is a common eye disease that causes the lens of the eye to become cloudy, affecting vision. The lens is a clear, flexible structure inside the eye that helps focus light onto the retina, creating a clear image. As a cataract develops, the lens loses its transparency, leading to a gradual decline in vision.",
+        "Causes" : ["Old age", "Injuries to eye", "Medical Conditions like diabetes", "high blood pressure", "Family history"],
+        "Symptoms" : ["Blurry or Cloudy vision", "Difficulty seeing at night", "Faded colors"],
+        "Treatment" : "Cataract surgery is the only effective treatment for cataracts. In this procedure, the cloudy lens is removed and replaced with a clear artificial lens (intraocular lens, IOL). Cataract surgery is a safe and common procedure with a high success rate."
+    },
+    "Glaucoma": {
+        "Predictions": "Glaucoma: The Silent Thief of Sight",
+        "Descriptions": "Glaucoma is a group of eye diseases that damage the optic nerve, the nerve responsible for transmitting visual information from the eye to the brain. This damage can lead to permanent vision loss if left untreated. Glaucoma is often referred to as the \"silent thief of sight\" because it can develop slowly and without noticeable symptoms in its early stages.",
+        "Causes" : ["The primary cause of glaucoma is increased pressure within the eye, called intraocular pressure (IOP).", "This pressure is caused by a buildup of fluid (aqueous humor) in the front part of the eye.", "There are two main drainage channels for this fluid; when these channels become blocked or malfunction, fluid accumulates, leading to pressure buildup.", "This pressure can damage the delicate fibers of the optic nerve, ultimately affecting vision."],
+        "Symptoms" : ["Gradual loss of peripheral (side) vision", "Sudden, severe eye pain, redness, nausea, vomiting, blurred vision, halos around lights"],
+        "Treatment" : "There is no cure for glaucoma, but early diagnosis and treatment can help prevent further vision loss. Treatment aims to lower IOP and protect the optic nerve."
+    },
+    "Normal": {
+        "Predictions": "Normal",
+        "Descriptions": "No ocular disease are found"
+    }
+}
