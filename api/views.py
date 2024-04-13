@@ -42,8 +42,7 @@ class UserLoginView(APIView):
 class EyeDiseasePredictionView(APIView):
     permission_classes = [IsAuthenticated]
     parser_classes = [MultiPartParser]
-    def post(self, request, format=None):
-        user= self.request.user
+    def post(self, request):
         serializer = EyePredictSerializer(data=request.data, context={'request':request})
         if serializer.is_valid():
             serializer.save()
