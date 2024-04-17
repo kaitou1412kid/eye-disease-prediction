@@ -47,7 +47,9 @@ def predict(image_path):
     # relative_path = os.path.join("api","alogrithm")
     # model_path = os.path.join(os.getcwd(), relative_path, "cnn6.pt")
     # print(model_path)
-    model = torch.load("cnn6.pt")
+    model = CNN6(3)
+    # model = torch.load("cnn6.pt")
+    model.load_state_dict(torch.load("cnn6model.pt"))
     model.eval()
     transform = transforms.Compose([
         transforms.Resize((256,256)),
